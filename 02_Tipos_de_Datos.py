@@ -10,6 +10,4 @@ print(saludo[0])
 print(saludo+" "+"Hola hola")
 
 
-# a
-
-print((saludo+" ")*4)
+# Multiplicar un print

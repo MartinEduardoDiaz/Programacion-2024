@@ -5,4 +5,4 @@ carrera = "Ingenieria Civil en Informatica"
 
 print(len(institucion))
 
-print(institucion.split)
+print(institucion.split())
