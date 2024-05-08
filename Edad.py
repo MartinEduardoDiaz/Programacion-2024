@@ -1,2 +1,2 @@
-Edad = input("¿Cual es tu edad?")
-print("Mi edad es:", Edad)
+Edad = input("¿Cual es tu edad? ")
+print("Mi edad es", Edad)
