@@ -68,4 +68,24 @@ print(bool(1))
 print("\n")
 
 
-#
+
+# Utilizando la Función Bool
+print(bool(0))
+print(bool(1))
+
+
+
+# Listas
+print("Listas\n")
+
+ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi"]
+varios = ["Nicolas", 20, True]
+
+Lista_list = list("Python", "Ruby")
+
+
+print(type(ciudades))
+
+print(ciudades)
+print(varios)
+print(Lista_list)
