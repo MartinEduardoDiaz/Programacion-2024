@@ -10,4 +10,22 @@ print(saludo[0])
 print(saludo+" "+"Hola hola")
 
 
-# Multiplicar un print
+
+
+
+# Números
+
+estatura = 1.70
+peso = 70
+
+# Potencia
+
+imc = peso/(estatura**2)
+
+
+
+# Bibliotecas
+
+import math
+print(math.trunc(imc))
+pow()
