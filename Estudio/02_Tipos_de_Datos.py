@@ -28,4 +28,37 @@ imc = peso/(estatura**2)
 
 import math
 print(math.trunc(imc))
-pow()
+
+
+
+
+
+# BOOLEANOS
+
+print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n")
+ampolleta = False
+interruptor = True
+
+
+# Función Type
+
+print(type(ampolleta),type(interruptor))
+print(type(imc))
+print(type(peso))
+
+# Salidas Booleanas
+print(1 <= 0)
+print(100 >= 10)
+print(19 == 19)
+
+
+
+print("\n")
+
+
+# Declaración de Booleanos
+print(bool(" "))
+print(bool("False"))
+print(bool([]))
+print(bool(0))
+print(bool(1))
