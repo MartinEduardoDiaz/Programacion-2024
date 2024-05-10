@@ -80,12 +80,11 @@ print("Listas\n")
 
 ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi"]
 varios = ["Nicolas", 20, True]
-
-Lista_list = list("Python", "Ruby")
+list("Python", "Ruby")
 
 
 print(type(ciudades))
 
 print(ciudades)
 print(varios)
-print(Lista_list)
+
