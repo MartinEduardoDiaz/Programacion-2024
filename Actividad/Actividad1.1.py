@@ -1,4 +1,6 @@
 
+# Definir Variables
+
 NJoel1=5.64
 NJoel2=3.45
 NJoel3=4.56
@@ -11,11 +13,17 @@ NPaz1=3.45
 NPaz2=4.01
 NPaz3=6.23
 
+
+# Calculos
+
 PromedioJoel=NJoel1+NJoel2+NJoel3
 PromedioAlondra=NAlondra1+NAlondra2+NAlondra3
 PromedioPaz=NPaz1+NPaz2+NPaz3
 
 PromedioTodos = (PromedioJoel+PromedioAlondra+PromedioPaz)/3
+
+
+# Imprimir
 
 print(" ")
 print("Las notas de los estudiantes son:")
