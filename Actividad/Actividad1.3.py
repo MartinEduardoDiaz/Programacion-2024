@@ -18,8 +18,22 @@ print("Ingrese la descripción del Segundo Producto")
 Producto2=input()
 print("")
 
-TotalProducto1=(Producto1precio*Producto1cantidad)
-TotalProducto2=(Producto2precio*Producto2cantidad)
+intP1P=int(Producto1precio)
+intP1C=int(Producto1cantidad)
+
+intP2P=int(Producto2precio)
+intP2C=int(Producto2cantidad)
+
+TotalProducto1=intP1P*intP1C
+TotalProducto2=intP2P*intP2C
+
+print("")
+print("Descripción del Primer Producto:")
+print()
+print("")
+print("Descripción del Segundo Producto:")
+print()
+print("")
 
 print("")
 print("Valor Total del Inventario de los Productos:", TotalProducto1+TotalProducto2)
