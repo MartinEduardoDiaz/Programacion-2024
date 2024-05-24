@@ -1,0 +1,28 @@
+
+print("")
+print("Ingrese el precio del Primer Producto")
+Producto1precio=input()
+print("Ingrese la cantidad del Primer Producto")
+Producto1cantidad=input()
+print("")
+print("Ingrese la descripción del Primer Producto")
+Producto1=input("")
+
+print("")
+print("Ingrese el precio del Segundo Producto")
+Producto2precio=input()
+print("Ingrese la cantidad del Segundo Producto")
+Producto2cantidad=input()
+print("")
+print("Ingrese la descripción del Segundo Producto")
+Producto2=input()
+print("")
+
+TotalProducto1=(Producto1precio*Producto1cantidad)
+TotalProducto2=(Producto2precio*Producto2cantidad)
+
+print("")
+print("Valor Total del Inventario de los Productos:", TotalProducto1+TotalProducto2)
+print("")
+print("Precio Promedio de los Productos:", (TotalProducto1+TotalProducto2)/2)
+print("")
