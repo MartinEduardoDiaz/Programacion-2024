@@ -6,7 +6,7 @@ print("Ingrese la cantidad del Primer Producto")
 Producto1cantidad=input()
 print("")
 print("Ingrese la descripción del Primer Producto")
-Producto1=input("")
+Producto1=input()
 
 print("")
 print("Ingrese el precio del Segundo Producto")
@@ -33,6 +33,7 @@ print("")
 print("Descripción del Segundo Producto:")
 print(Producto2)
 print("")
+
 
 print("")
 print("Valor Total del Inventario de los Productos:", TotalProducto1+TotalProducto2)
