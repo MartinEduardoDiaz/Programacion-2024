@@ -26,12 +26,15 @@ intP2C=int(Producto2cantidad)
 TotalProducto1=intP1P*intP1C
 TotalProducto2=intP2P*intP2C
 
+Producto1upper=Producto1.upper()
+Producto2upper=Producto2.upper()
+
 print("")
 print("Descripción del Primer Producto:")
-print(Producto1)
+print(Producto1upper)
 print("")
 print("Descripción del Segundo Producto:")
-print(Producto2)
+print(Producto2upper)
 print("")
 
 
@@ -40,3 +43,11 @@ print("Valor Total del Inventario de los Productos:", TotalProducto1+TotalProduc
 print("")
 print("Precio Promedio de los Productos:", (TotalProducto1+TotalProducto2)/2)
 print("")
+
+
+
+
+
+
+#joint=unir
+#split=separar
