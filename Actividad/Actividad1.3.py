@@ -20,7 +20,6 @@ print("")
 
 intP1P=int(Producto1precio)
 intP1C=int(Producto1cantidad)
-
 intP2P=int(Producto2precio)
 intP2C=int(Producto2cantidad)
 
@@ -29,10 +28,10 @@ TotalProducto2=intP2P*intP2C
 
 print("")
 print("Descripción del Primer Producto:")
-print()
+print(Producto1)
 print("")
 print("Descripción del Segundo Producto:")
-print()
+print(Producto2)
 print("")
 
 print("")
