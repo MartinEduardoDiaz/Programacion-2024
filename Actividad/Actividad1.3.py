@@ -36,6 +36,7 @@ print("")
 print("Descripción del Segundo Producto:")
 print(Producto2upper)
 print("")
+print("Descripciones de los Productos Unidas")
 
 
 print("")
