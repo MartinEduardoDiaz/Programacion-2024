@@ -101,3 +101,16 @@ print(ciudades[3])
 listanumeros=[1,2,3,4,5,6,7,8,9,10]
 numeros=listanumeros
 print(numeros)
+
+
+# Tuplas
+
+musica = tuple()
+generos = ("Rock", "Pop", "Swing")
+
+print(generos)
+print(type(generos))
+
+print(generos[2])  # Imprime el elemento en esa posición
+print(generos.index["Rock"])  # imprime la posicisión de ese elemento
+
