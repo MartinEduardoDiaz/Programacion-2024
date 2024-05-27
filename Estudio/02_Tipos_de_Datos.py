@@ -78,9 +78,9 @@ print(bool(1))
 # Listas
 print("Listas\n")
 
-ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi"]
+ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro"]
 varios = ["Nicolas", 20, True]
-list("Python", "Ruby")
+lista2 = list(["Python", "Ruby"])
 
 
 print(type(ciudades))
@@ -88,3 +88,16 @@ print(type(ciudades))
 print(ciudades)
 print(varios)
 
+
+# len cuenta la cantidad de elementos de una lista
+print(len(ciudades))
+
+# .count cuenta la cantidad de ocurrencias de un elemento en una variable (cuantas veces se repite una cosa)
+print(ciudades.count("Castro"))
+
+# Impresion de un elemento en especifico de una lista
+print(ciudades[3])
+
+listanumeros=[1,2,3,4,5,6,7,8,9,10]
+numeros=listanumeros
+print(numeros)
