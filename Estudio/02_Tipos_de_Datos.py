@@ -78,7 +78,7 @@ print(bool(1))
 # Listas
 print("Listas\n")
 
-ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro"]
+ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro", "Quemchi"]
 varios = ["Nicolas", 20, True]
 lista2 = list(["Python", "Ruby"])
 
@@ -130,5 +130,23 @@ print(generos.index["Rock"])  # imprime la posicisión de ese elemento
 
 
 # Las tuplas no se pueden cambiar, son inmutables
+
+
+
+
+
+
+
+
+
+
+# Set
+# Set no admite elementos duplicados
+
+
+# Inicializando Sets
+colores = {}
+animales = {}
+
 
 
