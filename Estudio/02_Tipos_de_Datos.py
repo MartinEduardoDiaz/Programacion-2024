@@ -78,7 +78,7 @@ print(bool(1))
 # Listas
 print("Listas\n")
 
-ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro"]
+ciudades = ["Castro", "Queilen", "Ancud", "Quellón", "Chonchi", "Castro", "Quemchi"]
 varios = ["Nicolas", 20, True]
 lista2 = list(["Python", "Ruby"])
 
@@ -103,14 +103,50 @@ numeros=listanumeros
 print(numeros)
 
 
+
+# Lista
+
+list = [1,2,3,4,5,6,7,8,9,10]
+listnum = list(range(1,3)) # funcion de rango
+
+
+ciudades[0] = "Quemchi"
+print(ciudades)
+
+
+
+
+
 # Tuplas
 
 musica = tuple()
-generos = ("Rock", "Pop", "Swing")
+generos = ("Rock", "Pop", "Swing", "HipHop")
 
 print(generos)
 print(type(generos))
 
 print(generos[2])  # Imprime el elemento en esa posición
 print(generos.index["Rock"])  # imprime la posicisión de ese elemento
+
+
+# Las tuplas no se pueden cambiar, son inmutables
+
+
+
+
+
+
+
+
+
+
+# Set
+# Set no admite elementos duplicados
+
+
+# Inicializando Sets
+colores = {}
+animales = {}
+
+
 
