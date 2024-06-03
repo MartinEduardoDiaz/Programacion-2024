@@ -19,3 +19,19 @@ Python.
 c. Mostrar las fechas ordenadas.
 
 '''
+
+print()
+print("Ingresar la fecha de vencimiento de el Primer Producto: ")
+fechaprimero = int(input("Dia: ")), int(input("Mes: ")), int(input("Año: "))
+print("Ingresar la fecha de vencimiento de el Segundo Producto: ")
+fechasegundo = int(input("Dia: ")), int(input("Mes: ")), int(input("Año: "))
+print("Ingresar la fecha de vencimiento de el Tercer Producto: ")
+fechatercero = int(input("Dia: ")), int(input("Mes: ")), int(input("Año: "))
+
+print()
+print(fechaprimero)
+print()
+print(fechasegundo)
+print()
+print(fechatercero)
+print()
