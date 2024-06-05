@@ -36,4 +36,32 @@ aves = set(["Aguila", "Pato", "Canario"])
 animalesterrestres = set(["León", "Elefante", "Nutria"])
 animalesacuaticos = set(["Pato", "Delfín", "Nutria"])
 
+print()
+print("Sets:")
 print(aves)
+print(animalesterrestres)
+print(animalesacuaticos)
+print()
+
+print()
+
+aves.add(input("Ingrese otra Ave: "))
+print()
+
+animalesterrestres.add(input("Ingrese otro Animal Terrestre: "))
+print()
+
+animalesacuaticos.add(input("Ingrese otro Animal Acuático: "))
+print()
+
+print("Aves:")
+print(aves)
+print()
+
+print("Animales Terrestres:")
+print(animalesterrestres)
+print()
+
+print("Animales Acuáticos:")
+print(animalesacuaticos)
+print()
