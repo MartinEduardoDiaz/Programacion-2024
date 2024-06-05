@@ -31,3 +31,9 @@ c. Encontrar y mostrar los animales que pueden pertenecer a más de una categor�
 utilizando la función correspondiente.
 
 '''
+
+aves = set(["Aguila", "Pato", "Canario"])
+animalesterrestres = set(["León", "Elefante", "Nutria"])
+animalesacuaticos = set(["Pato", "Delfín", "Nutria"])
+
+print(aves)
