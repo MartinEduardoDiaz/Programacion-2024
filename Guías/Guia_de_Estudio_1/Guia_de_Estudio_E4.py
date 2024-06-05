@@ -24,37 +24,41 @@ print()
 
 nombre1 = input("Ingrese el nombre de la primera persona: "),
 edad1 = input("Ingrese la edad de la primera persona: ")
-
-diccionario1 = {
-    "Nombre":nombre1,
-    "Edad":edad1
-}
-
-
 print()
-
 nombre2 = input("Ingrese el nombre de la segunda persona: "),
 edad2 = input("Ingrese la edad de la segunda persona: ")
-
-diccionario2 = {
-    "Nombre":nombre2,
-    "Edad":edad2
-}
-
-
 print()
-
 nombre3 = input("Ingrese el nombre de la tercera persona: "),
 edad3 = input("Ingrese la edad de la tercera persona: ")
+print()
 
-diccionario3 = {
-    "Nombre":nombre3,
-    "Edad":edad3
+DiccionarioP = {
+    "Nombre Persona 1":nombre1,
+    "Edad Persona 1":edad1,
+    "Nombre Persona 2":nombre2,
+    "Edad Persona 2":edad2,
+    "Nombre Persona 3":nombre3,
+    "Edad Persona 3":edad3
 }
 
+print(f"Personas: ", DiccionarioP)
 
 print()
 
-print(f"Persona 1: ", diccionario1)
-print(f"Persona 2: ", diccionario2)
-print(f"Persona 3", diccionario3)
+print("Agrege los datos de la cuarta persona para que sea agregada al set")
+print()
+nombre4 = input("Ingrese el nombre de la cuarta persona: ")
+edad4 = input("Ingrese la edad de la cuarta persona: ")
+
+DiccionarioP.update({"Nombre Persona 4": nombre4})
+DiccionarioP.update({"Edad Persona 4": edad4})
+
+print()
+
+print("Cuarta Persona Agregada:")
+print(DiccionarioP)
+
+print()
+
+print("Una Persona Eliminada:")
+
