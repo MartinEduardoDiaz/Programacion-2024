@@ -55,6 +55,6 @@ diccionario3 = {
 
 print()
 
-print(diccionario1)
-print(diccionario2)
-print(diccionario3)
+print(f"Persona 1: ", diccionario1)
+print(f"Persona 2: ", diccionario2)
+print(f"Persona 3", diccionario3)
