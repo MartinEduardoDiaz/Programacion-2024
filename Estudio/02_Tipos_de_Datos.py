@@ -107,7 +107,7 @@ print(numeros)
 # Lista
 
 list = [1,2,3,4,5,6,7,8,9,10]
-listnum = list(range(1,3)) # funcion de rango
+
 
 
 ciudades[0] = "Quemchi"
@@ -126,7 +126,7 @@ print(generos)
 print(type(generos))
 
 print(generos[2])  # Imprime el elemento en esa posición
-print(generos.index["Rock"])  # imprime la posicisión de ese elemento
+
 
 
 # Las tuplas no se pueden cambiar, son inmutables
@@ -150,3 +150,40 @@ animales = {}
 
 
 
+
+
+
+
+
+
+# Diccionarios
+
+doctor = {
+    "nombre": "Elson",
+    "edad": 40,
+    "especialidad": "Cirujano",
+    "ciudad": "Castro"
+    }
+
+
+# Consultar valores especificos
+
+print(doctor["nombre"])
+
+
+# Consultar valores y claves
+
+print(doctor.keys())
+print(doctor.values())
+
+
+# Actualizar Diccionarios
+
+doctor.update({"edad": "41", "ciudad": "Queilen"})
+print(doctor)
+
+
+# Limpiar un Diccionario
+
+doctor.clear()
+print(doctor)
