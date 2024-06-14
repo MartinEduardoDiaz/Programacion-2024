@@ -17,3 +17,10 @@ else:
     print("El auto no puede arrancar")
 
 print()
+
+
+
+
+
+
+# operadores ternarios
