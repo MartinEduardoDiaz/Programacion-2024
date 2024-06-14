@@ -18,8 +18,7 @@ print()
 
 edad2 = int(input("Ingrese su edad: "))
 
-if edad2:
-    edad2 >= 18
+if edad2>=18:
     print("Eres mayor de edad")
 else: print("No eres mayor de edad")
 
