@@ -42,3 +42,6 @@ elif indice_calidad_del_aire[2] > 300:
 else: print("Numero no valido")
 
 print()
+
+
+# Corregir.
