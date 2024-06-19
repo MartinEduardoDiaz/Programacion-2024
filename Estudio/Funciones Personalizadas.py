@@ -4,6 +4,7 @@
 def saludo(nombre):
     print("Hola mi nombre es: ", nombre)
 
+saludo("Martin")
 
 
 
@@ -18,6 +19,3 @@ print(y)
 
 
 
-# a
-
-saludo("Martin")
