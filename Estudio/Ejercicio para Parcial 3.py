@@ -6,9 +6,9 @@ tupla_ZS = (8848, 5567, 8125, 4560, 8051, 4560)
 tupla_ZA = (2200, 2500, 1000, 2200, 3623, 990)
 
 print("Se imprimen los números duplicados:")
-print(tupla_ZC[3]*2, tupla_ZC[5]*2)
-print(tupla_ZS[3]*2, tupla_ZS[5]*2)
-print(tupla_ZA[0]*2, tupla_ZA[3]*2)
+print(tupla_ZC[3], tupla_ZC[5])
+print(tupla_ZS[3], tupla_ZS[5])
+print(tupla_ZA[0], tupla_ZA[3])
 
 
 print()
